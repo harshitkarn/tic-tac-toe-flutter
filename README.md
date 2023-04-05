@@ -1,4 +1,4 @@
-# global_vars
+# Tic Tac Toe
 
 A new Flutter project.
 
