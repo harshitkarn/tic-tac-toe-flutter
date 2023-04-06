@@ -77,7 +77,7 @@ class _BoardState extends State<Board> {
           _win = _turn;
         }
       }
-      for(var i=0;i<9;i++)if(_arr[i]==0)return;
+      for(var i=0;i<9;i++)if(_arr[i]==0||_win!=0)return;
       _win=3;
     });
   }
